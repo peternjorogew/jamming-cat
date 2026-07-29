@@ -4,7 +4,7 @@ export const VIDEO_DEFAULT_BPM = 135.48;
 
 /**
  * Spotify can describe the same groove in half-time or double-time. Keeping
- * the animation within this perceptual range avoids frantic or sluggish motion.
+ * the animation within this perceptual range avoids extreme fast or sluggish motion.
  */
 export function normalizeBpm(bpm: number): number {
   let normalized = bpm;
