@@ -18,7 +18,7 @@ Spotify's audio analysis to try to stay in sync with the beat.
 - Adds itself back if Spotify rebuilds the player interface
 - Saves settings between Spotify restarts
 
-Clicking the cat opens its settings. From there I can change:
+Clicking the cat opens its settings. From there you can change:
 
 - Size
 - Opacity
