@@ -12,7 +12,15 @@ export function installStyles(settings: CatSettings): void {
       width: var(--jamming-cat-size);
       height: var(--jamming-cat-size);
       flex: 0 0 var(--jamming-cat-size);
+      align-self: center;
+      max-height: calc(100% - 8px);
+      margin-block: auto;
+      box-sizing: border-box;
       object-fit: contain;
+      object-position: center;
+      position: relative;
+      top: 0;
+      transform: translateY(0);
       opacity: var(--jamming-cat-opacity);
       filter: brightness(var(--jamming-cat-brightness)) contrast(0.95);
       cursor: pointer;
